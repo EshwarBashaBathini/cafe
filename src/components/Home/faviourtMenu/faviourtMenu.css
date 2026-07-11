@@ -1,0 +1,140 @@
+.faviourt-menu-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto  ;
+    width: 100%;
+    max-width: 1500px;
+    padding: 40px 20px;
+    margin-bottom: 100px;
+   
+}
+
+.faviourt-content-container{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.faviourt-title{
+    color: var(--grey-1);
+    font-size: var(--text-h2);
+    font-weight: var(--fw-bold);
+}
+
+.faviourt-sub-title{
+    color: var(--grey-2);
+    font-size: var(--text-md);
+    font-weight: var(--fw-regular);
+}
+
+.faviourt-menu-list{
+    padding: 10px;
+    background-color: var(--secondary-cream);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    list-style-type: none;
+    width: max-content;
+    height: max-content;
+    width: 30%;
+    align-items: center;
+    
+}
+
+.faviourt-menu-item{
+    display: flex;
+   
+    padding: 10px;
+    background-color: white;
+    align-items: center;
+    padding: 10 20px 10 20px;
+    margin: 10px;
+    width: 90%;
+}
+
+.items-title{
+    margin-left: 15px;
+    
+}
+
+.list-img-wrapper{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.img-size-menu{
+    width: 100%;
+    position: absolute;
+}
+
+.faviourt-btn{
+    color: black;
+    background-color: white;
+   width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    margin: 5px;
+
+}
+.btns-container-menu{
+    position: absolute;
+   
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    right: 0;
+    margin: 10px;
+    display: none;
+    z-index: 1px;
+}
+
+.list-img-wrapper:hover .btns-container-menu{
+    display: flex;
+}
+
+.list-items-faviourts{
+   width: 300px;
+   margin: 0px 0px 20px 10px;
+
+}
+.ul-items-faviourts{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;    
+    margin: 24px;
+    justify-content: space-between;
+}
+.faviourt-content-container-2{
+    display: flex;
+    align-items: center;
+   
+}
+.coffee-name{
+    color: var(--black);
+    font-size: var(--text-h6);
+    font-weight: var(--fw-bold);
+}
+
+.text-content-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.coffee-rating{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+@media screen and (max-width:900px) {
+    .faviourt-content-container-2{
+        flex-direction: column;
+    }
+    .faviourt-menu-list{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .ul-items-faviourts{
+        width: 100%;
+    }
+}

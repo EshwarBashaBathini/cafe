@@ -1,0 +1,22 @@
+.btn {
+  min-width: 180px;
+  height: 56px;
+  padding: 0 24px;
+  border-radius: 0;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-filled {
+  background: var(--primary-brown);
+  color: var(--white);
+  border: none;
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--primary-brown);
+  border: 1px solid var(--primary-brown);
+}

@@ -1,0 +1,54 @@
+.banner-bg-container{
+    background-image: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+        ),url('/images/middlewbanner.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin: 60px 0 60px 0 ;
+}
+.middle-banner-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1500px;
+    flex-wrap: wrap;
+}
+
+.list-items-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+margin-bottom: 20px;
+    color: white;
+    font-family: var(--font-heading);
+}
+
+.banner-title{
+    font-size: var(--text-h5);
+    font-weight: var(--fw-bold);
+}
+
+.banner-count{
+    font-size: var(--text-h3);
+    font-weight: var(--fw-bold);
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:450px) {
+    .banner-bg-container{
+        padding: 20px;
+        align-items: center;
+    }
+    .list-items-banner{
+        width: 100%;
+        
+    }
+    
+}

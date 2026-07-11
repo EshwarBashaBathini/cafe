@@ -1,0 +1,98 @@
+.category-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1500px; /* Prevents layout spreading too wide on ultra-wide monitors */
+    margin: 0 auto;
+    padding: 40px 20px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.category-header {
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+.coffee-category-name {
+    font-size: var(--text-h2);
+    font-weight: var(--fw-bold);
+    margin-bottom: 10px;
+}
+
+.coffee-category-title {
+    font-size: var(--text-md);
+    color: var(--grey-1);
+}
+
+/* 🌟 Container holding lists and center image */
+.coffee-category-content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+.ul-coffee-items {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px; /* Adds explicit item spacing instead of padding */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* 🌟 FIX: Added a concrete height and display behavior to prevent collapse */
+.image-wrapper-category {
+    position: relative;
+    flex: 1;
+    height: 450px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* absolute positions fine-tuned relative to center */
+.leaf1 {
+    position: absolute;
+    width: 200px;
+    right: -20px;
+    top: 140px;
+    z-index: 1;
+}
+
+.leaf2 {
+    position: absolute;
+    width: 200px;
+    left: -20px;
+    bottom: 20px;
+    z-index: 1;
+}
+
+.coffee-image {
+    position: absolute;
+    width: 340px;
+    z-index: 2; /* Ensures coffee cup stays on top of accent leaves */
+    transition: transform 0.3s ease;
+}
+
+.coffee-image:hover {
+    transform: scale(1.03); /* Subtle micro-interaction on hovering center dish */
+}
+
+@media screen and (max-width:900px) {
+    .coffee-category-content-wrapper{
+        flex-direction: column;
+        width: 100%;   
+    }
+    .image-wrapper-category{
+        height: 400px;
+    }
+    .leaf1{
+        width: 300px;
+    }
+    
+}

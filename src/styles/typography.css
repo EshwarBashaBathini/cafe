@@ -1,0 +1,52 @@
+:root {
+
+  /* Font Families */
+
+  --font-heading: var(--font-helvetica);
+  --font-body: var(--font-inter);
+  --font-script: var(--font-miniver);
+
+
+  /* Headings */
+
+  --text-h1: 60px;
+  --text-h2: 48px;
+  --text-h3: 40px;
+  --text-h4: 32px;
+  --text-h5: 24px;
+  --text-h6: 20px;
+
+
+  /* Body */
+
+  --text-xl: 20px;
+  --text-lg: 18px;
+  --text-md: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+
+
+  /* Line Heights */
+
+  --lh-h1: 68px;
+  --lh-h2: 56px;
+  --lh-h3: 48px;
+  --lh-h4: 40px;
+  --lh-h5: 32px;
+  --lh-h6: 28px;
+
+  --lh-xl: 28px;
+  --lh-lg: 26px;
+  --lh-md: 24px;
+  --lh-sm: 22px;
+  --lh-xs: 20px;
+
+
+  /* Font Weights */
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+}

@@ -1,0 +1,75 @@
+.food-list-ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+
+.bg-image-food{
+    width: 262px;
+    padding: 20px;
+    background-image: url('/images/shopFoodItem.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.food-title{
+    font-size: var(--text-lg);
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.food-title-bold{
+    font-weight: var(--fw-bold);
+}
+.food-price-style{
+    font-size: var(--text-md);
+    font-weight: var(--fw-regular);
+    color: var(--primary-orange);
+}
+
+.old-price{
+    color: var(--grey-3);
+    font-size: var(--text-md);
+    font-weight: var(--fw-regular);
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.price-container{
+    display: flex;
+    align-items: center;
+}
+
+.list-items-food{
+    margin: 10px;
+}
+
+.image-wrapper-food-item{
+    width: 260px;
+    height: 200px;
+    position: relative;
+}
+.image-size-bg{
+    width: 260px;
+    height: 100%;
+    position:absolute;
+    object-fit: cover;
+}
+.sell-text{
+    position: absolute;
+    margin: 10px;
+    background-color: var(--primary-orange);
+  
+    border-radius: 5px;
+    color: var(--white);padding-left: 15px;
+    font-family: var(--font-heading);
+    width: 55px;
+    height: 22px;
+
+}
+
+
+

@@ -1,0 +1,13 @@
+.parteners-name{
+    font-family: var(--font-script);
+    color: var(--primary-coffee);
+    font-size: var(--text-lg);
+    font-weight: var(--fw-regular);
+}
+
+.images-scroll{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
