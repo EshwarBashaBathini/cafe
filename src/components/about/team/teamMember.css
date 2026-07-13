@@ -1,0 +1,70 @@
+.team-member-section{
+    position: relative;
+    height: 600px;
+}
+
+.team-member-overlay{
+    background-image: linear-gradient(
+        rgba(255, 159, 13, 0.85),
+        rgba(255, 159, 13, 0.85)
+    ),
+    url('/images/yellow-about-img.svg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 380px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-member-header{
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.team-member-header h2{
+    font-size: var(--text-h2);
+    font-weight: var(--fw-bold);
+    margin-bottom: 16px;
+}
+
+.team-member-header p{
+    font-size: var(--text-md);
+    line-height: 28px;
+}
+
+.team-cards{
+    margin-top: -100px;   /* Cards overlap the banner */
+    position: relative;
+    z-index: 2;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.ul-chef-list-1 {
+    display: flex;
+    list-style-type: none;
+
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.chef-list-items-1 {
+    width: 230px;
+   
+    text-align: center;
+    margin: 5px 12px;
+}
+.image-wrapper-chef-1 {
+    width: 100%;
+    height: 242px;
+    position: relative;
+
+}
