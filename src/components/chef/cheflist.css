@@ -1,0 +1,29 @@
+.list-item-chef{
+    width: 250px;
+    margin: 10px;
+
+}
+
+.chef-image{
+    width: 100%;
+}
+
+.ul-list-chef{
+    display: flex;
+    flex-wrap: wrap;
+}
+.div-role{
+    text-align: center;
+}
+
+.chef-name{
+    font-weight: var(--fw-bold);
+    font-size: var(--text-h6);
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.container-list-chef{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
